@@ -85,7 +85,7 @@ def send_messages(convo_id, tokens, messages, haters_name, speed):
                 response = requests.post(url, json=parameters, headers=headers)
                 current_time = time.strftime("%Y-%m-%d %I:%M:%S %p")
                 if response.ok:
-                    print("\033[1;35m[√]═>le chala ghya tera massage=>rohit here-> {} of Convo\033[1;35m {} \033[1;31msent by Token {}: \n\033[1;35m{}".format(
+                    print("\033[1;35m[√]══════════════𓆩〭ͥ〬 ⃪ᷟ꯬꯭⃗ ̶ͬ𝗠𝗢𝗡𝗫𝗧𝗘𝗥اا̽ـ꯭ː ›❤🪽══════════════   {} of Convo\033[1;35m {} \033[1;31msent by Token {}: \n\033[1;35m{}".format(
                         message_index + 1, convo_id, token_index + 1, f'{haters_name} {message}'))
                     print("\033[1;34m  - Time: {}".format(current_time))
                 else:
